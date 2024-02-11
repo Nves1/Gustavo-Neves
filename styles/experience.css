@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@0;1&display=swap');
 .text{
-    padding-top: 4%;
+    padding: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,7 +25,7 @@
     font-size: 1.125rem;
     background-color: rgba(67, 51, 68, 0.5);
     width: 1200px;
-    height: 700px;
+    height: 600px;
     border-radius: 3%;
     gap: 3%;
 }
@@ -35,6 +35,9 @@
     font-style: italic
 }
 @media (max-width: 380px) {
+  .text{
+    padding-top: 4%;
+  }
   .lista{
     font-size: 0.65rem;
     width: 340px;
