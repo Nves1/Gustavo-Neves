@@ -40,6 +40,9 @@ body{
     font-style: italic;
     font-weight: 500;
 }
+.neves{
+    width: 50%;
+}
 .image{
     display: flex;
     justify-content: center;

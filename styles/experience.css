@@ -34,6 +34,11 @@
     font-size: 2.75rem;
     font-style: italic
 }
+.topic{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+}
 @media (max-width: 380px) {
   .text{
     padding-top: 4%;
