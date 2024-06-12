@@ -7,6 +7,15 @@
     flex-direction: column;
     animation: go-back 1s;
 }
+.maga{
+  text-decoration: none;
+  color: white;
+  
+}
+.maga:hover{
+    color: #F05445;
+    cursor: pointer;
+}
 @keyframes go-back {
     from {
       transform: translateX(100px);
